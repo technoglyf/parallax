@@ -6,8 +6,21 @@ body {
 a {
     color: yellowgreen;
 }
+.bacground_mtn {
+  width: 100%; height: auto;
+}
+.space {
+  width: 100%; height: auto;
+  position: absolute; bottom: 10%;
+}
 .mtn {
   outline: 2px solid cyan;
+  position: relative;
+  overflow: hidden;
+}
+.lunar{
+  height: 750px;
+  outline: 2px solid red;
   position: relative;
   overflow: hidden;
 }
@@ -22,4 +35,18 @@ a {
   background-color: purple;
   position: absolute; top:50%; right:0;
 
+}
+.bacground_mtn{
+position: absolute; bottom: 0;
+
+}
+b.moon {
+  background-color: white;
+  display: block;
+  box-shadow:0 0 3em cyan, 0 0 1.5em white;
+  border-radius: 90px;
+  background: #white;
+  padding: 20px;
+  width: 80px;
+  height: 80px;
 }
