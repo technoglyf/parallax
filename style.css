@@ -1,46 +1,21 @@
 body {
-  background-color: navy;
+  background-color: black;
   color: white;
 }
 
 a {
     color: yellowgreen;
 }
-.bacground_mtn {
-  width: 100%; height: auto;
-}
-.space {
-  width: 100%; height: auto;
-  position: absolute; bottom: 10%;
-}
-.mtn {
-  outline: 2px solid cyan;
-  position: relative;
-  overflow: hidden;
-}
+
 .lunar{
-  height: 750px;
-  outline: 2px solid red;
+
   position: relative;
   overflow: hidden;
-}
-.mtn b {
-  background-color: violet;
-  display: block;
-  width: 300px;
-  height: 300px;
-  transform: rotate(45deg);
-}
-.mtn .right {
-  background-color: purple;
-  position: absolute; top:50%; right:0;
+  min-height: 600px;
+  background-image: linear-gradient(to bottom black, blue);
+  }
 
-}
-.bacground_mtn{
-position: absolute; bottom: 0;
-
-}
-b.moon {
+.moon {
   background-color: white;
   display: block;
   box-shadow:0 0 3em cyan, 0 0 1.5em white;
@@ -49,4 +24,48 @@ b.moon {
   padding: 20px;
   width: 80px;
   height: 80px;
+  z-index: 5;
+  position: absolute;
+  top: 20px;
+  left: 45%;
+}
+
+.img {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.stars-space {
+  z-index: 1;
+  top: auto;
+  width: 100%;
+}
+
+.mid-mtn{
+  z-index: 20;
+  bottom: :auto;
+  width: 100%;
+}
+
+.dome{
+  z-index: 30;
+  bottom: :auto;
+    width: 100%;
+}
+
+.mtn1{
+  z-index: 40;
+  bottom: :auto;
+}
+
+.rocket{
+  z-index: 150;
+  width: 55%;
+  left:30%;
+  bottom: :auto;
+}
+
+.ground{
+  z-index: 60;
+  bottom: :auto;
 }
